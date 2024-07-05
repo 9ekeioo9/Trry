@@ -27,9 +27,9 @@ from pyrogram import (
     __version__ as v
 )
 
-#حقوق احمد @H1HHIH - @ELHYBA
-# تطوير مودي الهيبه اذا ما ذكرت مصدر بنحكح امك @ELHYBA - @SOURCE_ZE 
-ownerID = int("6581896306") #ايدي الادمن 
+#حقوق هاشم @E_ll_E - @ELHYB
+# تطوير مودي الهيبه اذا ما ذكرت مصدر بنحكح امك @ELHYB - @SOURCE_ZE 
+ownerID = int("6085071475") #ايدي الادمن 
 api_hash = Config.API_HASH #ايبي هاش 
 api_id = Config.APP_ID #ايبي ايدي
 token = Config.TG_BOT_TOKEN #البوت
@@ -409,7 +409,7 @@ async def generator_and_about(app,m):
       text += "🐍 اللـغـة الـبـرمـجـيـة - بـايـثـون "
       text += f"\n🔥 اصـدار بايروجرام {v}"
       text += f"\n🌱 اصـدار تـيـلـيـثـون {v2}"
-      text += f"\n\n👤 مـطـور الـبـوت: @ELHYBA"
+      text += f"\n\n👤 مـطـور الـبـوت: @ELHYB"
       await m.reply(text, quote=True)
 
     if m.text == "بـايـروجـرام":
@@ -523,5 +523,5 @@ async def generator_and_about(app,m):
 
 app.start()
 bot.start()
-print("تم تشغيل البوت @ELHYBA")
+print("تم تشغيل البوت @ELHYB")
 idle()
